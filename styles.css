@@ -309,3 +309,21 @@ body {
     scale: 100%;
   }
 }
+
+@media (min-width: 1920px) {
+  .project-title {
+    padding-top: 32rem;
+    font-size: 186px;
+    line-height: 170px;
+  }
+
+  .sticky-square {
+    top: 75px;
+  }
+
+  .contact-btn_1 {
+    margin-top: 40px;
+    margin-left: -30px;
+    scale: 100%;
+  }
+}
