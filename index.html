@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="black_dot[black].svg" alt="icon" class="nav-icon" />
+      </div>
+      <div class="item-center">black.dot</div>
+      <a href="#" class="nav-item">contact</a>
+    </header>
+
+    <div class="container">
+      <div class="left-column">
+        <h1 class="project-title">black.dot<br />project</h1>
+        <canvas
+          class="contact-btn_1"
+          id="canvas_button_1"
+          width="400"
+          height="140"
+        ></canvas>
+
+        <!-- Additional content to enable scrolling -->
+        <div id="section2" style="margin-top: 20vh">
+          <div class="content-text">
+            Lörem ipsum makrogt multikoling tesk önynera, benybelt. Möpät
+            egenanställningsföretag rugt dosamma tresm. Onde prening för att
+            möheten sorar. Ongar ar. Nenar autorunt previns ponäde.<br />
+            Press sunade. Käl heterosam. Rör fang ikoment då post anaten. Lörem
+            ipsum makrogt multikoling tesk önynera, benybelt.<br />
+            Möpät egenanställningsföretag rugt dosamma tresm. Onde prening för
+            att möheten sorar.
+          </div>
+          <canvas
+            class="contact-btn_1"
+            id="canvas_button_2"
+            width="400"
+            height="140"
+          ></canvas>
+        </div>
+      </div>
+      <!-- Right Column - Sticky Gray Square -->
+      <div class="right-column">
+        <div class="sticky-square">
+          <canvas id="canvas" width="2000" height="2000"></canvas>
+          <script src="https://unpkg.com/@rive-app/webgl2@latest"></script>
+        </div>
+      </div>
+    </div>
+    <div class="container_2" style="margin-bottom: 1000px"></div>
+    <script>
+      // Optional - Add any JavaScript for additional effects
+      document.addEventListener("DOMContentLoaded", function () {
+        // You could add scroll effects or animations here
+        // The sticky positioning is handled by CSS
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
